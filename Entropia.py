@@ -41,8 +41,8 @@ def mostrar_imagenes(original_np, reducida_np):
 
 # === MAIN ===
 
-ruta_original = '4096/prueba2.jpg'
-ruta_destino_cpu = '1024_cpu/resultado_prueba1.jpg'
+ruta_original = '4096/prueba3.jpg'
+ruta_destino_cpu = '1024_cpu/resultado_prueba3.jpg'
 
 # Cargar imagen original
 imagen_pil = Image.open(ruta_original).convert('RGB')
